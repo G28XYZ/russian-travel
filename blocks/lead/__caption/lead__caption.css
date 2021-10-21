@@ -1,6 +1,7 @@
 .lead__caption {
   align-self: flex-start;
-  font-style: 10px;
+  font-size: 16px;
   line-height: 14px;
+  padding-top: 8px;
   margin: 0;
 }
