@@ -1,4 +1,14 @@
 .place__title {
   font-size: 72px;
   line-height: 76px;
+  margin: 0;
+  border: solid 1px white;
+}
+
+@media screen and (width: 320px) {
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0;
+  }
 }

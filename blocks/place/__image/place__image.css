@@ -1,6 +1,7 @@
 .place__image {
   width: 100%;
-  max-width: 460px;
-  max-height: 460px;
   object-fit: cover;
+  max-width: 460px;
+  /* min-width: 320px; */
+  justify-self: stretch;
 }
