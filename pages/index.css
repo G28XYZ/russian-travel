@@ -10,6 +10,10 @@
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 /* </header> */
 
+/* <about> */
+@import url(../blocks/about/about.css);
+/* </about> */
+
 /* <lead> */
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__image/lead__image.css);
@@ -20,8 +24,12 @@
 
 /* <intro> */
 @import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
 /* </intro> */
 
 /* <photo-grid> */
 @import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__image/photo-grid__image.css);
 /* </photo-grid> */
