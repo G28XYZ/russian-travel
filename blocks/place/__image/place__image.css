@@ -2,5 +2,7 @@
   width: 100%;
   object-fit: cover;
   max-width: 460px;
-  /* min-width: 320px; */
+  background-size: cover;
+  min-width: 320px;
+  justify-self: center;
 }

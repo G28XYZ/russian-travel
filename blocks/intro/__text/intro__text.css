@@ -3,3 +3,9 @@
   line-height: 1.6;
   margin: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .intro__text {
+    width: ;
+  }
+}

@@ -1,7 +1,30 @@
 .places {
   display: grid;
-  grid-gap: 80px;
+  row-gap: 80px;
   padding-top: 92px;
   max-width: 984px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    padding-top: 88px;
+    row-gap: 72px;
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    padding-top: 88px;
+    row-gap: 72px;
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    padding-top: 64px;
+    row-gap: 50px;
+  }
 }
