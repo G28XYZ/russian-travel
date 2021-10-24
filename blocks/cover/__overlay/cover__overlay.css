@@ -1,17 +1,10 @@
 .cover__overlay {
-  display: flex;
-  flex-direction: column;
   position: absolute;
-  top: 56%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  justify-content: center;
-  align-items: center;
+  object-fit: cover;
   width: 100%;
-}
-
-@media screen and (max-width: 320px) {
-  .cover__overlay {
-    top: 65%;
-  }
+  height: 100%;
+  z-index: -1;
 }

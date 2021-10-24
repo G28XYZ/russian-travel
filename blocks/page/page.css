@@ -1,14 +1,34 @@
 @font-face {
   font-family: "Inter";
   src: url(../../fonts/Inter-Regular.woff) format("woff");
+  font-weight: normal;
 }
 
 .page {
-  max-width: 1280px;
   min-width: 320px;
+  max-width: 1280px;
   background-color: #2a2c2f;
-  width: 100%;
   color: #fff;
   font-family: "Inter";
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+
   margin: 0 auto;
+  padding: 28px 0 24px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    padding: 28px 0 24px 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    padding: 16px 0 24px 0;
+  }
 }
