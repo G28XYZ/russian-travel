@@ -6,6 +6,7 @@
   line-height: 1.1;
 }
 
+/* переход для более похожего отображения как по макету для других экранов в диапазоне меньше 768px и больше 320px */
 @media screen and (max-width: 767px) {
   .footer__links {
     flex-direction: column;

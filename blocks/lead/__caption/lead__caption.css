@@ -4,8 +4,14 @@
   padding-top: 8px;
   letter-spacing: 1.5px;
   margin: 0;
-  width: max-content;
   text-transform: uppercase;
+  align-self: start;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__caption {
+    padding-left: 48px;
+  }
 }
 
 @media screen and (max-width: 768px) {

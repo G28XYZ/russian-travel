@@ -1,34 +1,24 @@
 .cover__subtitle {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
   font-size: 18px;
   line-height: 1.2;
   max-width: 360px;
   text-align: center;
   margin: 0 auto;
   padding-top: 32px;
-  z-index: 2;
 }
 
-@media screen and (max-width: 768px) {
-  .cover__subtitle {
-    top: 65%;
-  }
-}
-
+/* переход для более похожего отображения как по макету для других экранов в диапазоне меньше 768px и больше 320px */
 @media screen and (max-width: 767px) {
   .cover__subtitle {
-    font-size: 1.3vw;
+    width: 45vw;
+    font-size: 4vw;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__subtitle {
-    top: 65%;
     font-size: 14px;
-    line-height: 16px;
     padding-top: 16px;
     width: 265px;
   }

@@ -1,38 +1,45 @@
 .cover__title {
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  padding-top: 245px;
   max-width: 550px;
   font-size: 72px;
   line-height: 1.05;
   width: 100%;
   text-align: center;
   margin: 0 auto;
-  z-index: 2;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover__title {
+    padding-top: 19vw;
+  }
 }
 
 @media screen and (max-width: 1024px) {
   .cover__title {
-    top: 40%;
+    padding-top: 195px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__title {
-    top: 38%;
+    padding-top: 115px;
   }
 }
 
+/* переход для более похожего отображения как по макету для других экранов в диапазоне меньше 768px и больше 320px */
 @media screen and (max-width: 767px) {
   .cover__title {
-    font-size: 6.5vw;
+    padding-top: 12vw;
+    max-width: 60vw;
+    font-size: 9vw;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__title {
-    top: 30%;
+    padding-top: 33px;
     max-width: 245px;
     font-size: 32px;
     line-height: 1.2;
