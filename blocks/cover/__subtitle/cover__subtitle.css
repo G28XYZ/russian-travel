@@ -11,8 +11,8 @@
 /* переход для более похожего отображения как по макету для других экранов в диапазоне меньше 768px и больше 320px */
 @media screen and (max-width: 767px) {
   .cover__subtitle {
-    width: 45vw;
-    font-size: 4vw;
+    width: 75vw;
+    font-size: 3vw;
   }
 }
 
