@@ -12,7 +12,7 @@
 }
 
 /* переход для более похожего отображения шрифта как по макету для других экранов в диапазоне меньше 768px и больше 320px */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 540px) {
   .place__title {
     font-size: 10vw;
   }

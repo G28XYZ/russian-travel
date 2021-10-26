@@ -1,9 +1,13 @@
 .footer {
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   padding-top: 92px;
   padding-left: 48px;
   padding-right: 48px;
+  max-width: 1280px;
+  margin: 0 auto;
+  align-self: end;
 }
 
 @media screen and (max-width: 768px) {
@@ -15,7 +19,7 @@
 }
 
 /* переход для более похожего отображения как по макету для других экранов в диапазоне меньше 768px и больше 320px */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 540px) {
   .footer {
     padding-top: 64px;
     padding-left: 16px;

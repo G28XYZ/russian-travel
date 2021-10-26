@@ -1,7 +1,9 @@
 .header {
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
-
+  max-width: 1280px;
+  margin: 0 auto;
   padding-right: 48px;
   padding-left: 48px;
 }
