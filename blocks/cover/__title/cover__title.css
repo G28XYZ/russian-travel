@@ -10,21 +10,9 @@
   font-weight: 900;
 }
 
-@media screen and (max-width: 1279px) {
-  .cover__title {
-    padding-top: 19vw;
-  }
-}
-
 @media screen and (max-width: 1024px) {
   .cover__title {
     padding-top: 195px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .cover__title {
-    padding-top: 15vw;
   }
 }
 
@@ -35,7 +23,7 @@
 }
 
 /* переход для более похожего отображения как по макету для других экранов в диапазоне меньше 768px и больше 320px */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 640px) {
   .cover__title {
     padding-top: 12vw;
     max-width: 65vw;
