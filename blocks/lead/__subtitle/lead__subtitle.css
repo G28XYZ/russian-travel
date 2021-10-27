@@ -9,7 +9,7 @@
 }
 
 /* переход для более похожего отображения как по макету для других экранов в диапазоне меньше 768px и больше 320px */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 640px) {
   .lead__subtitle {
     font-size: 5vw;
   }
