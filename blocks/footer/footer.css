@@ -27,13 +27,3 @@
     row-gap: 48px;
   }
 }
-
-@media screen and (max-width: 320px) {
-  .footer {
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 64px;
-    flex-direction: column;
-    row-gap: 48px;
-  }
-}
